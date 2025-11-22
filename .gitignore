@@ -1,0 +1,30 @@
+# Игнорируем виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Игнорируем файлы PyCharm и VSCode
+.idea/
+.vscode/
+
+# Игнорируем файлы байткода Python и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорируем файлы логов и базы данных
+*.log
+*.sqlite3
+
+# Игнорируем временные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорируем папки с пакетами Python, если случайно добавлены
+*.egg-info/
+dist/
+build/
+
+# Игнорируем Jupyter notebook checkpoints
+.ipynb_checkpoints/
