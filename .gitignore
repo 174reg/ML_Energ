@@ -7,11 +7,18 @@ env/
 # Игнорируем файлы PyCharm и VSCode
 .idea/
 .vscode/
+*.swp
+*.swo
+
 
 # Игнорируем файлы байткода Python и кэш
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
 
 # Игнорируем файлы логов и базы данных
 *.log
@@ -20,6 +27,8 @@ __pycache__/
 # Игнорируем временные файлы операционной системы
 .DS_Store
 Thumbs.db
+*.log
+*.tmp
 
 # Игнорируем папки с пакетами Python, если случайно добавлены
 *.egg-info/
@@ -28,3 +37,12 @@ build/
 
 # Игнорируем Jupyter notebook checkpoints
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Env files
+.env
+.env.local
+
+# Папки с данными и моделями (если большие!)
+# models/*pkl
+# models/*.h5

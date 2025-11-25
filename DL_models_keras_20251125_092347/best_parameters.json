@@ -1,0 +1,61 @@
+{
+  "all": {
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "epochs": 50
+  },
+  "winter": {
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "activation": "tanh",
+    "dropout_rate": 0.0,
+    "epochs": 50
+  },
+  "spring": {
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "activation": "tanh",
+    "dropout_rate": 0.0,
+    "epochs": 50
+  },
+  "summer": {
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "epochs": 50
+  },
+  "autumn": {
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "dropout_rate": 0.0,
+    "epochs": 50
+  }
+}
