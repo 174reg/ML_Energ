@@ -36,8 +36,8 @@ dist/
 build/
 
 # Игнорируем Jupyter notebook checkpoints
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# .ipynb_checkpoints/
+# *.ipynb_checkpoints
 
 # Env files
 .env
